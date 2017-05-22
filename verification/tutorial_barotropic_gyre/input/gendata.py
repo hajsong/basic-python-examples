@@ -21,7 +21,7 @@ def gendata():
     ny = 60
 
     # Generate bathymetry with flat bottom at z=-Ho
-    h = -Ho*np.ones([nx, ny])
+    h = -Ho*np.ones((nx, ny))
     # Walls
     h[-1, :] = 0
     h[:, -1] = 0
