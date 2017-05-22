@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+
+import numpy as np
+
 def gendata():
     """
     Generate MITgcm tutorial_barotropic_gyre input files
@@ -7,8 +10,6 @@ def gendata():
        topog.box:    Domain depths ( m       )
        windx.sin_y:  Wind stress   ( Nm^{-2} )
     """
-
-    import numpy as np
 
     # Set ouput I/O to double precision IEEE big endian,
     # the MITgcm default.
