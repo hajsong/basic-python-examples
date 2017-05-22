@@ -13,4 +13,4 @@ for how Python is formatted. Some style things to note are
 
 * spaces around ```=``` in variable assignment statements.
 
-* no ```;``` at ehd of a line
+* no ```;``` at end of a statement
