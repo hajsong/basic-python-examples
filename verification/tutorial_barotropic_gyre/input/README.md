@@ -10,3 +10,7 @@ for how Python is formatted. Some style things to note are
 * import the numpy module before the function definition, again to be consistent with accepted python style
 
 * pass the np.ones command a tuple for the array size, rather than a list.
+
+* spaces around ```=``` in variable assignment statements.
+
+* no ```;``` at ehd of a line
