@@ -1,7 +1,7 @@
 python counterpart to ```MITgcm/verification/tutorial_barotropic_gyre/input/gendata.m```
 
-This is a tool for the ```tutorial_barotropic_gyre``` example and a good style example
-for how Python looks. Some style things to noe are
+This is a tool for the ```tutorial_barotropic_gyre``` example and a *preferred style* example
+for how Python is formatted. Some style things to note are
 
 * use context managers to open the output files. This ensures that the file handles are always closed once we're finished with them
 
