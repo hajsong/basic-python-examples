@@ -28,7 +28,7 @@ def gendata():
     with open('topog.box','wb') as fid:
         h.astype(ofmt).tofile(fid,"")
 
-    # Generate zonal wind-stress file that is sin with period of dmain north-south extent
+    # Generate zonal wind-stress file that is sin with period of domain north-south extent
     # and maximum of 0.1 Nm^{2}
     tauMax = 0.1
     x = (np.arange(1,nx+1)-0.5) / (nx-1.) # nx-1 accounts for a solid wall
